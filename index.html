@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Slider</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conference Speakers</h1>
+    </header>
+    <main>
+        <div class="slider">
+            <!-- Speaker cards will go here -->
+            <div class="speaker-card" data-speaker-id="1">
+                <h2>Speaker 1</h2>
+            </div>
+            <div class="speaker-card" data-speaker-id="2">
+                <h2>Speaker 2</h2>
+            </div>
+            <!-- Add more speaker cards as needed -->
+        </div>
+        <div class="popover hidden" id="speakerPopover">
+            <button class="close-btn">X</button>
+            <div class="popover-content">
+                <h2>Speaker Details</h2>
+                <p id="speakerDetails">Details about the speaker will appear here.</p>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
